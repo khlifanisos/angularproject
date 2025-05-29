@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'mahla zinek Sima' title`, () => {
+  it(`should have the 'ng-deploy' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('mahla zinek Sima');
+    expect(app.title).toEqual('ng-deploy');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('mahla zinek Sima');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, ng-deploy');
   });
 });
