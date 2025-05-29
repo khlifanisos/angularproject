@@ -14,10 +14,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'ng-deploy' title`, () => {
+  it(`should have the 'mahla zinek Sima' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ng-deploy');
+    expect(app.title).toEqual('mahla zinek Sima');
   });
 
   it('should render title', () => {
